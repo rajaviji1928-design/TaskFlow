@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow - Smart Productivity</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <a href="#home" class="logo">TaskFlow.</a>
+
+    <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#contact" class="nav-btn">Get Started</a>
+</header>
+
+<section class="hero" id="home">
+    <div class="hero-content">
+        <span class="tag">SMART PRODUCTIVITY PLATFORM</span>
+        <h1>Manage Your Tasks.<br>
+            Achieve Your Goals.</h1>
+        <p>TaskFlow helps you organize your work, manage your time and achieve more every day.</p>
+
+        <a href="#features" class="primary-btn">Explore Features</a>
+    </div>
+
+    <div class="dashboard">
+        <div class="dash-top">
+            <div>
+                <h3>My Dashboard</h3>
+                <p>Welcome back! Here's your progress.</p>
+            </div>
+            <span class="profile">P</span>
+        </div>
+
+        <div class="stats">
+            <div class="stat">
+                <span>Total Tasks</span>
+                <h2>24</h2>
+                <small>All tasks</small>
+            </div>
+            <div class="stat">
+                <span>Completed</span>
+                <h2>18</h2>
+                <small>75% completed</small>
+            </div>
+            <div class="stat">
+                <span>Pending</span>
+                <h2>06</h2>
+                <small>Remaining tasks</small>
+            </div>
+        </div>
+
+        <div class="recent">
+            <h3>Recent Tasks</h3>
+            <p>✓ Complete project design</p>
+            <p>✓ Review daily progress</p>
+            <p>○ Prepare weekly report</p>
+        </div>
+    </div>
+</section>
+
+<section class="section features" id="features">
+    <div class="section-heading">
+        <span class="tag">OUR FEATURES</span>
+        <h2>Everything You Need</h2>
+        <p>Simple tools to make your work easier.</p>
+    </div>
+
+    <div class="feature-grid">
+        <div class="feature-card">
+            <div class="feature-icon">📋</div>
+            <h3>Task Management</h3>
+            <p>Organize and manage all your daily tasks in one place.</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="feature-icon">👥</div>
+            <h3>Team Collaboration</h3>
+            <p>Work together with your team and share your progress.</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="feature-icon">📊</div>
+            <h3>Progress Tracking</h3>
+            <p>Track your productivity and achieve your goals.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section about" id="about">
+    <span class="tag">ABOUT US</span>
+    <h2>About TaskFlow</h2>
+    <p>TaskFlow is a smart productivity platform designed to help individuals and teams organize their work. It makes task management simple, effective and easy.</p>
+</section>
+
+<section class="section pricing" id="pricing">
+    <div class="section-heading">
+        <span class="tag">OUR PRICING</span>
+        <h2>Choose Your Plan</h2>
+        <p>Simple pricing for everyone.</p>
+    </div>
+
+    <div class="pricing-grid">
+        <div class="price-card">
+            <h3>Free Plan</h3>
+            <h2>₹0 <small>/ month</small></h2>
+            <p>Basic task management</p>
+            <p>Personal task tracking</p>
+            <a href="#contact" class="primary-btn">Get Started</a>
+        </div>
+
+        <div class="price-card popular">
+            <span class="tag">POPULAR</span>
+            <h3>Pro Plan</h3>
+            <h2>₹299 <small>/ month</small></h2>
+            <p>Advanced task management</p>
+            <p>Team collaboration</p>
+            <a href="#contact" class="primary-btn">Choose Pro</a>
+        </div>
+    </div>
+</section>
+
+<section class="section contact" id="contact">
+    <div class="section-heading">
+        <span class="tag">GET IN TOUCH</span>
+        <h2>Let's Get Started</h2>
+        <p>Have questions? Send us a message.</p>
+    </div>
+
+    <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="primary-btn">Send Message</button>
+        <p id="successMessage" aria-live="polite"></p>
+    </form>
+</section>
+
+<footer>
+    <h3>TaskFlow.</h3>
+    <p>Make every day productive.</p>
+    <p>© 2026 TaskFlow. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
